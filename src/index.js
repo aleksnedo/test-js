@@ -177,3 +177,36 @@ const myCrazyObject = {
 console.log(myCrazyObject['some array'][2].number);
 
 // -----
+
+const myNamy = 'Oleksii';
+console.log('Hello ' + myNamy);
+if (myNamy.length > 6) {
+  console.log('Wow, you have a really long name!');
+} else {
+  console.log('Your name is not very long.');
+}
+
+// -------
+
+const myName = 'Oleksii';
+const myDarlingName = 'Yuliia';
+const myCatName = 'Barsik';
+let writtenName = 'abc';
+
+if (writtenName === myName) {
+  console.log('Hello me!');
+} else if (writtenName === myCatName) {
+  console.log(
+    'Hello ' + writtenName + ' you are not me, but you are the pretty kitty!'
+  );
+} else if (writtenName === myDarlingName) {
+  console.log(
+    'Hello ' +
+      writtenName +
+      ' you are not me, but you really beautifull girl)))'
+  );
+} else {
+  console.log('Hello stranger');
+}
+
+// --------
