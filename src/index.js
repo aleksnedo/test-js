@@ -210,3 +210,66 @@ if (writtenName === myName) {
 }
 
 // --------
+
+// let sheep = 0;
+// while (sheep < 10) {
+//   console.log('I have ' + sheep + ' sheep!');
+//   sheep++;
+// }
+// console.log('Zzzzzzzz');
+
+for (let sheep = 0; sheep < 5; sheep++) {
+  console.log('I have ' + sheep + ' sheep!');
+}
+console.log('Zzzzzzzz');
+
+let sayHello = 3;
+for (let i = 0; i < sayHello; i++) {
+  console.log('Hello!');
+}
+
+// -----------
+
+const myGarage = ['Honda', 'BMW', 'Mercedes', 'Nissan', 'Porsche'];
+for (let i = 0; i < myGarage.length; i += 1) {
+  console.log('I have in my garage ' + myGarage[i]);
+}
+
+for (let x = 3; x < 10000; x = x * 3) {
+  console.log(x);
+}
+
+// ---------
+
+let animals = ['Cat', 'Fish', 'Kemur', 'Komodo Dragon'];
+for (let i = 0; i < animals.length; i++) {
+  animals[i] = 'Awesome ' + animals[i];
+}
+console.log(animals);
+
+let alphabet = 'abcdefghijklmnopqrstuvwxyz';
+let randomString = '';
+const stringLenght = 3;
+for (let i = 0; i < stringLenght; i++) {
+  randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
+}
+console.log(randomString);
+
+let input = 'java script is awesome';
+let output = '';
+for (let i = 0; i < input.length; i++) {
+  if (input[i] === 'a') {
+    output += '4';
+  } else if (input[i] === 'e') {
+    output += '3';
+  } else if (input[i] === 'i') {
+    output += '1';
+  } else if (input[i] === 'o') {
+    output += '0';
+  } else if (input[i] === ' ') {
+    output += '_';
+  } else {
+    output += input[i];
+  }
+}
+console.log(output);
