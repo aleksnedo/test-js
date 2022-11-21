@@ -50,6 +50,7 @@ const updateGameState = function (guess, city, answerArray) {
       appearances++;
     }
   }
+
   return appearances;
 };
 
